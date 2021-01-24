@@ -8,8 +8,7 @@ class VideosController < ApplicationController
     def show
         @video = Video.find(params[:id])
         @comments = @video.comments
-        @video[:comments] = @comments
-        render json: @video
+        render json: {video: @video, comments: @comments}
     end
 
     def create
