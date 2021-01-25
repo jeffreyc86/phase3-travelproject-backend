@@ -160,5 +160,7 @@ end
 end
 
 
-puts "Data seeded!"
+puts "Comements Seeded 💬"
+
+puts "Seeding Complete ✅"
 

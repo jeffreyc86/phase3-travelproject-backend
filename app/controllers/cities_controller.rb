@@ -8,7 +8,6 @@ class CitiesController < ApplicationController
     def show
         @city = City.find(params[:id])
         @videos = @city.videos
-        @city[:videos] = @videos
         render json: @city
     end
 
