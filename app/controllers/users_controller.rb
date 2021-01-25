@@ -5,4 +5,18 @@ class UsersController < ApplicationController
         render json: @user
     end
 
+    def create
+        @user = User.create(params.permit(name))
+        render json: @user
+    end
+
+    def login
+        @user = User.find_by(name: params[:name])
+            if @user
+                render json: @user
+            else
+                render json: {error: 'This user does not exist.'}
+            end
+    end
+
 end

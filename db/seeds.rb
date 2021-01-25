@@ -146,17 +146,30 @@ puts "Users Seeded 💁‍♂️💁‍♀️"
 
 
 50.times do
-    Comment.create(video_id: Video.all.sample, user_id: User.all.sample, comment: Faker::Marketing.buzzwords)
+    Comment.create(video_id: Video.all.sample.id, user_id: User.all.sample.id, comment: Faker::Marketing.buzzwords)
 end
 
 
 50.times do 
-    Comment.create(video_id: Video.all.sample, user_id: User.all.sample, comment: Faker::Movies::HitchhikersGuideToTheGalaxy.quote)
+    Comment.create(video_id: Video.all.sample.id, user_id: User.all.sample.id, comment: Faker::Movies::HitchhikersGuideToTheGalaxy.quote)
 end
 
 
 50.times do 
-    Comment.create(video_id: Video.all.sample, user_id: User.all.sample, comment: Faker::JapaneseMedia::StudioGhibli.quote)
+    Comment.create(video_id: Video.all.sample.id, user_id: User.all.sample.id, comment: Faker::JapaneseMedia::StudioGhibli.quote)
+end
+
+50.times do 
+    Comment.create(video_id: Video.all.sample.id, user_id: User.all.sample.id, comment: Faker::Quotes::Shakespeare.romeo_and_juliet_quote)
+end
+
+50.times do 
+    Comment.create(video_id: Video.all.sample.id, user_id: User.all.sample.id, comment: Faker::TvShows::TheFreshPrinceOfBelAir.quote)
+end
+
+
+50.times do 
+    Comment.create(video_id: Video.all.sample.id, user_id: User.all.sample.id, comment: Faker::TvShows::BigBangTheory.quote)
 end
 
 
