@@ -30,7 +30,7 @@ class VideosController < ApplicationController
     private
 
     def video_params
-        params.permit(city_id, user_id, title, category, video_url, likes)
+        params.permit(:city_id, :user_id, :title, :category, :video_url, :likes)
     end
 
 end

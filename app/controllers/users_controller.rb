@@ -6,7 +6,7 @@ class UsersController < ApplicationController
     end
 
     def create
-        @user = User.create(params.permit(name))
+        @user = User.create(params.permit(:name))
         render json: @user
     end
 
@@ -15,7 +15,7 @@ class UsersController < ApplicationController
             if @user
                 render json: @user
             else
-                render json: {error: 'This user does not exist.'}
+                render json: {error: 'This user does not exist. Please try again or Sign Up'}
             end
     end
 
