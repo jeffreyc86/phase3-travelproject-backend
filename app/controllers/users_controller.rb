@@ -1,13 +1,22 @@
 class UsersController < ApplicationController
 
+    def index
+        @users = User.all
+        render json: @users
+    end
+
     def show
         @user = User.find(params[:id])
         render json: @user
     end
 
     def create
-        @user = User.create(params.permit(:name))
-        render json: @user
+        if User.find_by(name: params[:name])
+            render json: {error: 'This user name already exists. Either login or enter another Username.'}
+        else
+            @user = User.create(params.permit(:name))
+            render json: @user
+        end
     end
 
     def login
