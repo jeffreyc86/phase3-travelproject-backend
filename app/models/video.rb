@@ -7,4 +7,8 @@ class Video < ApplicationRecord
         self.user.name
     end
     
+    # def ordered_comments
+    #     self.comments.order(:id)
+    # end
+
 end

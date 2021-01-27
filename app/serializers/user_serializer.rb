@@ -1,6 +1,12 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :id, :name, :videos
 
   has_many :comments
-  has_many :videos
+
+  def videos
+    self.object.videos.order(:id).map do |video| 
+      {id: video.id, city_id: video.city_id, user_id: video.user_id, title: video.title, category: video.category, video_url: video.video_url, likes: video.likes}
+    end
+  end
+
 end

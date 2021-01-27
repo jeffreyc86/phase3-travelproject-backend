@@ -6,4 +6,5 @@ class Comment < ApplicationRecord
         self.user.name
     end
 
+
 end
