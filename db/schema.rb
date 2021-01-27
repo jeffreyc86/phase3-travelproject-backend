@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2021_01_24_203346) do
     t.string "continent"
     t.text "description"
     t.string "display_url"
+    t.string "static_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

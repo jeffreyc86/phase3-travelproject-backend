@@ -6,7 +6,8 @@ class CreateCities < ActiveRecord::Migration[6.0]
       t.string :continent
       t.text :description
       t.string :display_url
-
+      t.string :static_url
+      
       t.timestamps
     end
   end
