@@ -91,7 +91,7 @@ Video.create(city_id: 2, user_id: 1, title: "Tokyo's Most Popular Temple: Sensō
 Video.create(city_id: 2, user_id: 1, title: "Amazing forest in the middle of Tokyo: Meiji Shrine (guide)", category: "Cultural", video_url: "https://www.youtube.com/embed/JsjgeQtOWiU", likes: rand(50..200))
 Video.create(city_id: 2, user_id: 1, title: "Top 7 Museums to Visit | Tokyo Travel", category: "Cultural", video_url: "https://www.youtube.com/embed/FDrcs_7EDMQ", likes: rand(50..200))
 
-Video.create(city_id: 2, user_id: 1, title: "5 Must-Try Japanese Food Experiences in Tokyo", category: "Food", video_url: "https://www.youtube.com/embed/NGxcr_Z8Dmw&t=649s", likes: rand(50..200))
+Video.create(city_id: 2, user_id: 1, title: "5 Must-Try Japanese Food Experiences in Tokyo", category: "Food", video_url: "https://www.youtube.com/embed/NGxcr_Z8Dmw", likes: rand(50..200))
 Video.create(city_id: 2, user_id: 1, title: "JAPAN Street Food $100 CHALLENGE in Asakusa, Tokyo! The best Japanese Street Food in Tokyo!", category: "Food", video_url: "https://www.youtube.com/embed/An6cuIMTgxo", likes: rand(50..200))
 Video.create(city_id: 2, user_id: 1, title: "Brunch at 7-ELEVEN VS LAWSON in Tokyo Japan", category: "Food", video_url: "https://www.youtube.com/embed/QuTE12qGmz8", likes: rand(50..200))
 Video.create(city_id: 2, user_id: 1, title: "Japanese Street Food Tour of TSUKIJI Fish Market Tokyo Japan", category: "Food", video_url: "https://www.youtube.com/embed/VWoiDixL5kc", likes: rand(50..200))
