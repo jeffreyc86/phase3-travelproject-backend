@@ -1,24 +1,23 @@
-# README
+# YouTravel - Server
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Back end for YouTravel - a single-page application (SPA) video platform for travelers. The front end was built with vanilla Javascript and the back end was built using a Ruby on Rails API.
 
-Things you may want to cover:
+[Live Link](https://youtravel.netlify.app/) 
 
-* Ruby version
+[Demo](https://www.loom.com/share/7fd0bb35571a4eb8bfdef9d2c4ea1c3e)
 
-* System dependencies
+[Front end](https://github.com/jeffreyc86/phase3-travelproject-frontend)
 
-* Configuration
+To start the server:
 
-* Database creation
+```bash
+bundle install
+```
 
-* Database initialization
+```bash
+rails db:create && rails db:migrate
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+rails s
+```
