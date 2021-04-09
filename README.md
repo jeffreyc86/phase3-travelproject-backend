@@ -6,7 +6,7 @@ Back end for YouTravel - a single-page application (SPA) video platform for trav
 
 [Demo](https://www.loom.com/share/7fd0bb35571a4eb8bfdef9d2c4ea1c3e)
 
-[Front end](https://github.com/jeffreyc86/phase3-travelproject-frontend)
+[Front End](https://github.com/jeffreyc86/phase3-travelproject-frontend)
 
 To start the server:
 
