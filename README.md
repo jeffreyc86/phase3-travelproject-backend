@@ -1,10 +1,16 @@
 # YouTravel - Server
 
-Back end for [YouTravel](https://github.com/jeffreyc86/youtravel-demo/), a single-page application (SPA) video platform for travelers. The front end was built with vanilla `Javascript` and the back end was built using `Ruby on Rails` and `PostgreSQL`.
+Back end for [YouTravel](https://github.com/jeffreyc86/youtravel), a single-page application (SPA) video platform for travelers. The front end was built with vanilla `Javascript` and the back end was built using `Ruby on Rails` and `PostgreSQL`.
 
-[Live Link](https://youtravel.netlify.app/) / [Demo](https://www.loom.com/share/7fd0bb35571a4eb8bfdef9d2c4ea1c3e)
+[YouTravel Front End](https://github.com/jeffreyc86/youtravel-frontend)
 
-[Front End](https://github.com/jeffreyc86/youtravel-frontend)
+## Live Link & Demo
+
+Visit the [Live Link](https://youtravel.netlify.app/)
+
+Watch the [Demo](https://www.loom.com/share/7fd0bb35571a4eb8bfdef9d2c4ea1c3e)
+
+---
 
 To start the server:
 
